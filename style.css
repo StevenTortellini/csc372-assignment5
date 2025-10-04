@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.choices img {
+    width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: border 0.3s;
+}
+
+.choices img.selected {
+    border: 3px solid #007bff;
+}
+
+#computer-throw {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
