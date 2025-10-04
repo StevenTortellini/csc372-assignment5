@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Name: Steven Torres
+  Date: 10/03/2025
+  CSC 372-01
+
+  This is the index.html page for a basic Rock Paper Scissors game. 
+  The player can select rock, paper, or scissors by clicking on the corresponding image.
+  The computer will randomly select its choice after a brief "thinking" animation.
+  The computer will cycle through rock,papaer, and scissors evry half second for 3 seconds.
+  The outcome of the game (win, lose, or draw) is then displayed.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <!-- Player Section -->
+    <section id="player-section">
+        <h2>Your Throw</h2>
+        <div class="choices">
+            <img src="img/rock.PNG" alt="Rock" class="player-choice" data-choice="rock">
+            <img src="img/paper.PNG" alt="Paper" class="player-choice" data-choice="paper">
+            <img src="img/scissors.PNG" alt="Scissors" class="player-choice" data-choice="scissors">
+        </div>
+    </section>
+
+    <!-- Computer Section -->
+    <section id="computer-section">
+        <h2>Computer Throw</h2>
+        <img src="img/question-mark.PNG" alt="Computer Choice" id="computer-throw">
+    </section>
+
+    <!-- Outcome Section -->
+    <section id="outcome-section">
+        <h2>Outcome</h2>
+        <p id="outcome-message">Make your throw!</p>
+    </section>
+
+    <button id="reset-btn">Reset Game</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
