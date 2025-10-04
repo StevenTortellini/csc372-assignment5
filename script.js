@@ -11,10 +11,10 @@ let elapsedTime = 0;
 
 const choices = ['rock', 'paper', 'scissors'];
 const choiceImages = { // choice img obj
-    rock: 'img/rock.png',       
-    paper: 'img/paper.png',      
-    scissors: 'img/scissors.png',   
-    question: 'img/question-mark.png'    
+    rock: 'img/rock.PNG',       
+    paper: 'img/paper.PNG',      
+    scissors: 'img/scissors.PNG',   
+    question: 'img/question-mark.PNG'    
 };
 
 // Reset game
